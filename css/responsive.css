@@ -1,0 +1,96 @@
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .d_flex{
+        display: block; 
+    }
+    .cover-container{
+        height: 50vh;
+    }
+
+    .info21,.info22{
+        width: 100%;
+    }
+    .head{
+        font-size: 5vw;
+        padding-top: 2vh;
+        padding-right: 0vh;
+        justify-content: center;
+    }
+    #thought{
+        font-size: 12px;
+    }
+    .Name{
+        font-size: 28px;
+    }
+    .nt{
+        position: relative;
+        top: 21%;
+    }
+    
+    
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768.98px){
+    .d_flex{
+        display: block
+    }
+    .info21,.info22{
+        width: 100%;
+    }
+    
+    .head{
+        font-size: 10vw;
+        padding-top: 2vh;
+        padding-right: 0vh;
+        justify-content: center;
+    }
+    .nt{
+        position: relative;
+        top: 48%;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .d_flex{
+        display: block
+        
+    }
+    .head{
+        font-size: 8vw;
+        padding-top: 2vh;
+        padding-right: 0vh;
+        justify-content: center;
+    }
+    .info21,.info22{
+        width: 100%;
+    }
+    
+    
+    .info1{
+        width: 98%;
+        margin: 2%;
+    }
+    .info2{
+        width: 98%;
+        margin: 2%;
+    }
+    .nt{
+        position: relative;
+        top: 38%;
+    }
+    
+
+  }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    
+}
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {  
+    
+}

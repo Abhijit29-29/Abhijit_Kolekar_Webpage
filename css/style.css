@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+    
+}
+body{
+    background-color: black;
+}
+.cover-container {
+    background-color: cornsilk;
+    background-image: url(/img/Screenshot_20210717-033303_3.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-size:cover;
+    word-wrap:break-word;
+    height: 100vh;
+    margin: 1%;
+
+}
+
+
+.head{
+    font-size: 10vh;
+    color: blanchedalmond;
+    text-align: end;
+    font-family: 'Goblin One', cursive;
+    padding-top: 6vh;
+    padding-right: 2vh;
+
+}
+.nt{
+    position: relative;
+    top: 39%;
+
+}
+#thought{
+    color: blanchedalmond;
+    text-align: end;
+    font-size: 33px;
+    position: relative;
+    left: 50%;
+    width: 50%;
+}
+.Name{
+    font-size: 56px;
+    text-align: end;
+    color: blanchedalmond;
+    font-family: 'Goblin One', cursive;
+}
+.d_flex{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    margin: 2%;
+}
+.info1{
+    width: 60%;
+    padding: 2%;
+}
+.more{
+    display:none;
+    background-color: darkgreen;
+}
+
+.more1,.more,.more21,.more2{
+    display: none;
+}
+.dsd.more,.sd.more1,.tex1.more2,.img1.more21{
+  display: inline;   
+}
+
+.info2{
+    width: 40%;
+    padding: 2%;
+    align-items: center;
+    display: inline-block;
+}
+
+.info21{
+    width: 40%;
+    text-align: center;
+    padding: 2%;
+}
+.info21 img{
+    padding: 2%;
+
+}
+.info22{
+    width: 60%;
+    text-align: end;
+    padding: 2%;
+}
+.carousel-control-next{
+    right: 15%;
+}
+.carousel-control-prev{
+    left: 15%;
+}
+
+footer{
+    margin: 2% 0;
+    background-color: azure;
+    text-align: center;
+    align-items: center;
+}
